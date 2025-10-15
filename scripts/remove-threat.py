@@ -1,5 +1,8 @@
 # Copyright (C) 2015-2025, Wazuh Inc.
 # All rights reserved.
+# remove-threat.py
+# Script de Active Response do Wazuh para eliminação automática de ficheiros maliciosos
+# Integração com a API do VirusTotal e execução via Active Response no Manager Wazuh (Ubuntu)
 
 import os
 import sys
